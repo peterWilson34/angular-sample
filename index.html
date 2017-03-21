@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -21,16 +22,11 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
+
         </ul>
-        <form class="form-inline my-2 my-lg-0" ng-submit="searchProducts">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <form class="form-inline my-2 my-lg-0" ng-submit="searchProducts(search.name)">
+          <input class="form-control mr-sm-2" ng-model='search.name' type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" >Search</button>
         </form>
       </div>
     </div>
@@ -49,5 +45,6 @@
   <script type="text/javascript" src="js/controllers/header.js"></script>
   <script type="text/javascript" src="js/controllers/product.js"></script>
   <script type="text/javascript" src="js/factories/products.js"></script>
+  <script type="text/javascript" src="js/directives/stars.js"></script>
 </body>
 </html>

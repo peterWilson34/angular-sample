@@ -22,6 +22,22 @@ angular.module('ProductsStore').factory('Products',function ($http,$q) {
         }
       })
       return def.promise;
+    },
+    searchProductsByName:function(name) {
+      var def = $q.defer();
+      var products=[];
+      $http({
+        url:"products.json"
+      }).then(function(res){
+        for (var i = 0; i < res.data.length; i++) {
+          if (res.data[i].name.toLowerCase().includes(name.toLowerCase())) {
+            products.push(res.data[i])
+            def.resolve(products)
+
+          }
+        }
+      })
+      return def.promise;
     }
   }
 })

@@ -8,4 +8,7 @@ angular.module('ProductsStore').config(function ($routeProvider) {
     templateUrl:'templates/product.html',
     controller:'product'
   })
+  .when('/results',{
+    templateUrl:'templates/results.html'
+  })
 })
