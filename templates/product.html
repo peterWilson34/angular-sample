@@ -1,0 +1,26 @@
+<div class="container pt-3">
+  <div class="row mb-5">
+    <div class="col-sm-3">
+      <img src="{{product.image}}" alt="">
+    </div>
+    <div class="col-sm-9">
+      <h2>{{product.name}}</h2>
+      <div class="alert alert-danger" role="alert">
+        <strong>{{product.price |currency}}</strong>
+      </div>
+      <ul>
+        <li ng-repeat="(key,feature)  in product.features"><strong>{{key}}</strong>  {{feature}} </li>
+      </ul>
+
+    </div>
+  </div>
+  <ul class="list-group">
+  <li class="list-group-item active">Reviews</li>
+  <li class="list-group-item justify-content-between" ng-repeat="review in product.reviews">
+    <span><strong class="mr-2">{{review.reviewer }} </strong>{{review.review}}</span>
+    <span class="badge badge-default badge-pill pull-right">{{review.rate}}</span>
+
+  </li>
+</ul>
+
+</div>

@@ -1,0 +1,191 @@
+[
+  {
+    "name":"HTC Desire 300 Mobile Phone",
+    "year" : 2016,
+    "price": 1200,
+    "image":"images/htc1.png",
+    "features":{
+      "weight":"173 g",
+      "ram":"1 GB RAM",
+      "dual sim": false,
+      "camera": "12 MP",
+      "display": "5.2 inch",
+      "memory" : "16 GB"
+    },
+    "reviews":[
+      {
+        "reviewer":"Peter Wilson",
+        "review":"Cool phone",
+        "rate" : 4
+      },
+      {
+        "reviewer":"John Smith",
+        "review":"Useless phone , and old design",
+        "rate" : 2
+      }
+    ]
+
+  },
+  {
+    "name":"HTC Desire 400 Mobile Phone",
+    "year" : 2015,
+    "price": 1700,
+    "image":"images/htc2.png",
+    "features":{
+      "weight":"133 g",
+      "ram":"2 GB RAM",
+      "dual sim": false,
+      "camera": "2 MP",
+      "display": "3.2 inch",
+      "memory" : "4 GB"
+    },
+    "reviews":[
+      {
+        "reviewer":"Adams Nill",
+        "review":"Very good phone",
+        "rate" : 5
+      },
+      {
+        "reviewer":"John Smith",
+        "review":"Awsome design",
+        "rate" : 4
+      }
+    ]
+
+  },
+  {
+    "name":"iPhone 5 white",
+    "year" : 2014,
+    "price": 3400,
+    "image":"images/iphone1.png",
+    "features":{
+      "weight":"123 g",
+      "ram":"1 GB RAM",
+      "dual sim": false,
+      "camera": "8 MP",
+      "display": "4.2 inch",
+      "memory" : "16 GB"
+    },
+    "reviews":[
+      {
+        "reviewer":"Peter Wilson",
+        "review":"wow! outstanding one!",
+        "rate" : 5
+      },
+      {
+        "reviewer":"John Doe",
+        "review":"Expected more from Apple",
+        "rate" : 4
+      }
+    ]
+
+  },
+  {
+    "name":"Samsun at&t Smart Phone",
+    "year" : 2014,
+    "price": 1900,
+    "image":"images/sam1.png",
+    "features":{
+      "weight":"153 g",
+      "ram":"1 GB RAM",
+      "dual sim": true,
+      "camera": "8 MP",
+      "display": "4.5 inch",
+      "memory" : "4 GB"
+    },
+    "reviews":[
+      {
+        "reviewer":"Sarah Jyan",
+        "review":"Cool colors and easy to use",
+        "rate" : 4
+      },
+      {
+        "reviewer":"Sandra Liams",
+        "review":"resonable price with this features",
+        "rate" : 4
+      }
+    ]
+
+  },
+  {
+    "name":"Samsun G7 Smart Phone",
+    "year" : 2016,
+    "price": 2700,
+    "image":"images/sam2.png",
+    "features":{
+      "weight":"135 g",
+      "ram":"2 GB RAM",
+      "dual sim": true,
+      "camera": "12 MP",
+      "display": "5.2 inch",
+      "memory" : "4 GB"
+    },
+    "reviews":[
+      {
+        "reviewer":"Victor Micheal",
+        "review":"very good one",
+        "rate" : 4
+      },
+      {
+        "reviewer":"John Anfiled",
+        "review":"Useless phone , and old design",
+        "rate" : 2
+      }
+    ]
+
+  },
+  {
+    "name":"Nexus 1 Mobile Phone",
+    "year" : 2014,
+    "price": 2300,
+    "image":"images/nexus1.png",
+    "features":{
+      "weight":"122 g",
+      "ram":"2 GB RAM",
+      "dual sim": false,
+      "camera": "3 MP",
+      "display": "4.2 inch",
+      "memory" : "2 GB"
+    },
+    "reviews":[
+      {
+        "reviewer":"Alex Wilson",
+        "review":"Cool phone from Google!",
+        "rate" : 4
+      },
+      {
+        "reviewer":"Antonie Hazard",
+        "review":"what a phone!",
+        "rate" : 5
+      }
+    ]
+
+  },
+  {
+    "name":"Nexus 2 Mobile Phone",
+    "year" : 2017,
+    "price": 5400,
+    "image":"images/nexus2.png",
+    "features":{
+      "weight":"173 g",
+      "ram":"2 GB RAM",
+      "dual sim": true,
+      "camera": "16 MP",
+      "display": "5.2 inch",
+      "memory" : "16 GB"
+    },
+    "reviews":[
+      {
+        "reviewer":"Jack Piton",
+        "review":"very expensive",
+        "rate" : 2
+      },
+      {
+        "reviewer":"Adams Warner",
+        "review":"what a high price!",
+        "rate" : 1
+      }
+    ]
+
+  }
+]

@@ -1,0 +1,14 @@
+<div class="container py-3">
+  <div class="row">
+      <div class="col-sm-3 mb-3" ng-repeat="product in products">
+        <div class="card pt-2" >
+          <div class="card-img-top " style="background-image:url({{product.image}})" alt="Card image cap"></div>
+          <div class="card-block">
+            <h4 class="card-title">{{product.name}}</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#!/products/{{product.name}}" class="btn btn-primary">See Details</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
