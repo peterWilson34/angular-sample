@@ -2,7 +2,7 @@
   <ul class="list-group">
     <li class="list-group-item justify-content-between" ng-repeat="result in searcResults">
       <img src="{{result.image}}" alt="">
-      <span>{{result.name}}</span>
+      <a href="#!/products/{{result.name}}"><span>{{result.name}}</span></a>
       <span class="badge badge-default badge-pill" star-rating ng-model="result.avgRating"></span>
     </li>
 
