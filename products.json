@@ -7,7 +7,6 @@
     "features":{
       "weight":"173 g",
       "ram":"1 GB RAM",
-      "dual sim": false,
       "camera": "12 MP",
       "display": "5.2 inch",
       "memory" : "16 GB"
@@ -34,7 +33,6 @@
     "features":{
       "weight":"133 g",
       "ram":"2 GB RAM",
-      "dual sim": false,
       "camera": "2 MP",
       "display": "3.2 inch",
       "memory" : "4 GB"
@@ -61,7 +59,6 @@
     "features":{
       "weight":"123 g",
       "ram":"1 GB RAM",
-      "dual sim": false,
       "camera": "8 MP",
       "display": "4.2 inch",
       "memory" : "16 GB"
@@ -88,7 +85,6 @@
     "features":{
       "weight":"153 g",
       "ram":"1 GB RAM",
-      "dual sim": true,
       "camera": "8 MP",
       "display": "4.5 inch",
       "memory" : "4 GB"
@@ -115,7 +111,6 @@
     "features":{
       "weight":"135 g",
       "ram":"2 GB RAM",
-      "dual sim": true,
       "camera": "12 MP",
       "display": "5.2 inch",
       "memory" : "4 GB"
@@ -142,7 +137,6 @@
     "features":{
       "weight":"122 g",
       "ram":"2 GB RAM",
-      "dual sim": false,
       "camera": "3 MP",
       "display": "4.2 inch",
       "memory" : "2 GB"
@@ -169,7 +163,6 @@
     "features":{
       "weight":"173 g",
       "ram":"2 GB RAM",
-      "dual sim": true,
       "camera": "16 MP",
       "display": "5.2 inch",
       "memory" : "16 GB"
